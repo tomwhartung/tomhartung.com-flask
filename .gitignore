@@ -2,6 +2,20 @@
 #  Documentation is here: http://git-scm.com/docs/gitignore
 #  --------------------------------------------------------
 #
+# We do not want to check in confidential config settings files, databases, etc.
+#
+gitignored/Site/RCS
+gitignored/Site/hello_config.py
+gitignored/Site/tomhartung_config.py
+
+#
+#  We don't want to check in these cache files:
+#
+__pycache__
+
+#
+#  Directory names I like to use for temporary files:
+#
 downloads/
 tmp/
 unpack/
@@ -15,9 +29,4 @@ unzip/
 .~lock.*
 .*~
 *~
-
-#
-gitignored/Site/RCS
-gitignored/Site/config.py
-gitignored/Site/tomhartung_config.py
 
