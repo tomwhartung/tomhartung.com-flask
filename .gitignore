@@ -1,0 +1,23 @@
+#
+#  Documentation is here: http://git-scm.com/docs/gitignore
+#  --------------------------------------------------------
+#
+downloads/
+tmp/
+unpack/
+unzip/
+
+#
+#  Ignore netbeans work area and vim temporary files
+#
+/nbproject/
+*.swp
+.~lock.*
+.*~
+*~
+
+#
+gitignored/Site/RCS
+gitignored/Site/config.py
+gitignored/Site/tomhartung_config.py
+
